@@ -20,7 +20,7 @@ Here's the One-liner for manually importing a .ps1 Script into your current PS s
 ```
 iex ((New-Object System.Net.WebClient).DownloadString("Your Script URL"))
 ```
-And finally, The Holy Grail One-liner, IMO. manually importing raw DLL data into your current PS session.
+And finally, The Holy Grail One-liner, IMO. Manually importing raw DLL data into your current PS session.
 ```
 Import-Module ([System.Reflection.Assembly]::Load((Invoke-WebRequest -Uri "Your DLL File URL").content))
 ```
