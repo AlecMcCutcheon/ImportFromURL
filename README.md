@@ -3,5 +3,5 @@ ImportFromURL is a Module / One-Liner that allows you to temporarily import Ps1 
 
 Here's a One-Liner you can use to pull in the latest version of the module temporarily in your current session. 
 ```
-New-Module -Name ImportFromURL -ScriptBlock ([Scriptblock]::Create((New-Object System.Net.WebClient).DownloadString(")))
+New-Module -Name ImportFromURL -ScriptBlock ([Scriptblock]::Create((New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/AlecMcCutcheon/ImportFromURL/main/ImportFromURL.psm1")))
 ```
