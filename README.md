@@ -19,6 +19,7 @@ New-Module -Name ImportFromURL -ScriptBlock ([Scriptblock]::Create((New-Object S
 ```
 By default the script checks each URL to see if it can find the file extensions for each file type (.dll, .ps1, .psm1) if your URL does not contain the file extension I would make sure that that link leads directly to the raw code for (.ps1 & .psm1) files or directly to the download for the (.dll) File. If the URL does bring you directly to the correct location you can tell the script manually what type of file you are importing with parameters: <br />
 (-DLL, -Ps1, -Psm1) <br />
+
 Note that if you have multiple URLs and 1 of them does not contain a file extension and you're using a perimeter to tell the script what file type it is, all of the other URL's must be the same file type. 
 
 # (Manually importing Scripts, Modules & Raw DLL Data From a URL without installing or storing any files locally) Examples:
