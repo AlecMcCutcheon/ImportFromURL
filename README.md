@@ -13,7 +13,7 @@ I believe importing Raw DLL Module Data has never been attempted before, at leas
 
 My Module works with the pipeline so you can do ( "DLL File URL", "Ps1 File URL", "Psm1 File URL" | ImportFromURL ) For Example.
 
-Here's the One-Liner you can use to pull in the latest version of my module temporarily in your current PS session. 
+Here's the One-Liner you can use to pull in the latest version of my module into your current PS session. 
 ```
 New-Module -Name ImportFromURL -ScriptBlock ([Scriptblock]::Create((New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/AlecMcCutcheon/ImportFromURL/main/ImportFromURL.psm1")))
 ```
