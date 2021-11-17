@@ -11,7 +11,7 @@ Info on importing Raw DLL Module Data: No Info on task. <br />
 
 I believe importing Raw DLL Module Data has never been attempted before, at least from the hours of digging that I did. If someone has done it before, they have never publicly released how they did it. But that changes now. Your Welcome.
 
-My Module works with the pipeline so you can do ( "Your DLL File URL", "Your Ps1 URL", "Your Psm1 URL" | ImportFromURL ) For Example.
+My Module works with the pipeline so you can do ( "DLL File URL", "Ps1 File URL", "Psm1 File URL" | ImportFromURL ) For Example.
 
 Here's the One-Liner you can use to pull in the latest version of my module temporarily in your current PS session. 
 ```
