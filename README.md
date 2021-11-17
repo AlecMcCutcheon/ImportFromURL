@@ -3,7 +3,7 @@ ImportFromURL is a Module / One-liner that allows you to effortlessly import Ps1
 
 If you Google'd for a while, you'd probably quickly figure out how to import .Ps1 scripts in your currect PS session, (The answer to that question has been mainstream for awhile), but trying to find the others is a bit more challenging. 
 
-Manual research difficulty level to find info on each task:
+Manual research difficulty level before this to find info on each task:
 
 Info on Importing Ps1 Scripts: Easy <br />
 Info on Importing psm1 Modules: hard <br />
