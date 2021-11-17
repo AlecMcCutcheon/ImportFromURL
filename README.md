@@ -3,7 +3,7 @@ ImportFromURL is a Module / One-liner that allows you to temporarily import Ps1 
 
 Side Rant: If you Google'd for a while, you'd probably quickly figure out how to import .Ps1 scripts in your currect session (The answer to that question has been mainstream for awhile), but trying to find info on how to import a .Psm1 module from a URL without storing the module and installing it, is a much harder thing to find, It took me awhile and a lot of fiddling to come up with the seemingly simple one-liner that I have now. And if you think that's bad, getting the raw data from a .DLL file from a URL and piping it In to the currect session without storing any files was so much harder and, I believe has never been attempted before, at least from the hours of digging that I did. If someone has done it before, they have never publicly released how they did it. But that changes now. Your Welcome.
 
-My Module works with the pipeline so you can do ( "Your DLL Module URL", "Your Ps1 URL", "Your Psm1 URL" | ImportFromURL ) For Example.
+My Module works with the pipeline so you can do ( "Your DLL File URL", "Your Ps1 URL", "Your Psm1 URL" | ImportFromURL ) For Example.
 
 Here's the One-Liner you can use to pull in the latest version of my module temporarily in your current PS session. 
 ```
