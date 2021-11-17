@@ -6,9 +6,9 @@ If you Google'd for a while, you'd probably quickly figure out how to import .Ps
 
 Manual research difficulty level to find info on each task:
 
-info on Importing Ps1 Scripts: Easy <br />
-info on Importing psm1 Modules: hard <br />
-info on importing Raw DLL Module Data: No Info on task. <br />
+Info on Importing Ps1 Scripts: Easy <br />
+Info on Importing psm1 Modules: hard <br />
+Info on importing Raw DLL Module Data: No Info on task. <br />
 
 I believe importing Raw DLL Module Data has never been attempted before, at least from the hours of digging that I did. If someone has done it before, they have never publicly released how they did it. But that changes now. Your Welcome.
 
