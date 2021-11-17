@@ -22,7 +22,7 @@ By default the module checks each URL to see if it can find the file extensions 
 
 Note that if you have multiple URLs and 1 of them does not contain a file extension and you're using a perimeter to tell the module what file type it is, all of the other URL's must be the same file type. 
 
-# (Manually importing Scripts, Modules & Raw DLL Data From a URL without installing or storing any files locally) Examples:
+# (Manually importing PS1 Scripts, PSM1 Modules & Raw DLL Module Data From a URL without installing or storing any files locally) Examples:
 
 Similar to the command above, This is also the One-liner for manually importing a .Psm1 module into your current PS session.
 ```
