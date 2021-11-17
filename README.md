@@ -10,7 +10,7 @@ Here's the One-Liner you can use to pull in the latest version of my module temp
 New-Module -Name ImportFromURL -ScriptBlock ([Scriptblock]::Create((New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/AlecMcCutcheon/ImportFromURL/main/ImportFromURL.psm1")))
 ```
 
-# Manually importing Scripts, Modules & DLL Data Examples:
+# Manually importing Scripts, Modules & Raw DLL Data Examples:
 
 Similar to the command above, This is also the One-liner for manually importing a .psm1 module into your current PS session.
 ```
