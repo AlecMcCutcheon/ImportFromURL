@@ -20,7 +20,7 @@ New-Module -Name ImportFromURL -ScriptBlock ([Scriptblock]::Create((New-Object S
 By default the module checks each URL to see if it can find the file extensions for each file type (.dll, .ps1, .psm1) if your URL does not contain the file extension I would make sure that that link leads directly to the raw code for (.ps1 & .psm1) files or directly to the download for the (.dll) File. If the URL does bring you directly to the correct location you can tell the module manually what type of file you are importing with parameters: <br />
 (-DLL, -Ps1, -Psm1) <br />
 
-Note that if you have multiple URLs and 1 of them does not contain a file extension and you're using a perimeter to tell the module what file type it is, all of the other URL's must be the same file type. 
+Note that if you have multiple URLs and 1 of them does not contain a file extension and you're using a perimeter to tell the module what file type it is, all of the other URL's must be the same file type. Also currently there is no way to temporarily import the module manifest file psd1 so the Psm1 method will only work for modules that do not require a manifest file. however sometimes you can use the ps1 method to get functions out of the psm1 module that requires a manifest file
 
 # (Manually importing PS1 Scripts, PSM1 Modules & Raw DLL Module Data From a URL without installing or storing any files locally) Examples:
 
