@@ -1,8 +1,7 @@
 # ImportFromURL
 ImportFromURL is a Module / One-liner that allows you to effortlessly import Ps1 Scripts, Psm1 Modules &amp; Raw DLL Module Data into your current PS session without having to install or store any files locally. Funny enough, the code for the provided one-liner has some of the same logic that the module uses internally, At least for importing .psm1 modules. Below you will also find one liners examples for importing modules, scripts, and DLL files without having to use my Module. The purpose of my module is to make things easier on you (The Coder), For example, you could copy and paste my one liner into a function and use it as a cleaner way of importing Multiple other modules or scripts. If you don't care about how clean the code looks, or making it easier to import through-out in your function then I would recommend just doing it manually with the example one-liners. Regardless, it's here for your convenience. 
 
-If you Google'd for a while, you'd probably quickly figure out how to import .Ps1 scripts in your currect PS session,  <br />
-(The answer to that question has been mainstream for awhile), but trying to find the others is a bit more challenging. 
+If you Google'd for a while, you'd probably quickly figure out how to import .Ps1 scripts in your currect PS session, (The answer to that question has been mainstream for awhile), but trying to find the others is a bit more challenging. 
 
 Manual research difficulty level to find info on each task:
 
