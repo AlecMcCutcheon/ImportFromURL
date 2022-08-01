@@ -24,7 +24,7 @@
   if ($URL -match ".DLL" -or $DLL -eq $true) {
  
     try{
-        Import-Module ([System.Reflection.Assembly]::Load((Invoke-WebRequest -Uri $URL).content)) -ErrorAction SilentlyContinue > $null
+        Import-Module ([System.Reflection.Assembly]::Load((Invoke-WebRequest -UseBasicParsing -Uri $URL).content)) -ErrorAction SilentlyContinue > $null
     }catch{
         Write-Verbose "Import-Module Failed to Import DLL, Make sure the Url is a direct link to the file."
     }
